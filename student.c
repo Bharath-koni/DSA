@@ -24,7 +24,7 @@ int main()
 
     printf("\nStudent Details:\n");
 
-    for(i = j; i <= n; i++)
+    for(i = 0; i < j; i++)
     {
         printf("%d. %s\n", i + 1, name[i]);
     }
